@@ -1,0 +1,10 @@
+-   id: ktlint-format
+    name: Format Kotlin using ktlint
+    entry: runKtLintFormat
+    language: script
+    files: \.kt$
+-   id: swift-format
+    name: Format Swift using SwiftFormat
+    entry: runSwiftFormat
+    language: script
+    files: \.swift$

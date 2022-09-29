@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cd iosApp/BuildTools
+swift run -c release swiftformat ../iosApp
