@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-cd iosApp/BuildTools
-swift run -c release swiftformat ../iosApp
+swift run -c release --package-path iosApp/BuildTools swiftformat iosApp
