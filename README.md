@@ -21,4 +21,4 @@ repos:
 
 Notes:
 - change `rev` to another tag or specific commit if needed
-- if you want all the hooks to run even if there is an error in a previos one, remove the `fail_fast` param, it defauls to `false`
+- if you want all the hooks to run even if there is an error in a previos one, remove the `fail_fast` param, it defaults to `false`
