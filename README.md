@@ -21,4 +21,5 @@ repos:
 
 Notes:
 - change `rev` to another tag or specific commit if needed
-- if you want all the hooks to run even if there is an error in a previos one, remove the `fail_fast` param, it defauls to `false`
+- SwiftFormat can also run on Linux machines if you install Swift first. See [Install Swift on Linux](https://github.com/marketplace/actions/install-swift-on-linux) for GitHub actions.
+- if you want all the hooks to run even if there is an error in a previos one, remove the `fail_fast` param, it defaults to `false`
